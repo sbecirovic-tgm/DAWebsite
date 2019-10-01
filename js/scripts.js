@@ -18,7 +18,11 @@
 			}, 500);
 		}
 		hidePreloader();
-	});
+    });
+    
+    $(document).ready(function () {
+        $('.stepper').mdbStepper();
+        })
 
 	
 	/* Navbar Scripts */
